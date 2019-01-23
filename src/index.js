@@ -30,7 +30,7 @@ export class InFrontOfYou extends Component {
   render() {
     return (
       <div class= "InrontOfYou" >
-          <p>You shouldnt look too far.</p>
+          <p>You shouldn't look too far.</p>
           <h1>Sometimes,the solution is right  front  you.</h1>
       </div>
 );
