@@ -29,7 +29,7 @@ export class OlderCoaster extends Component {
 export class InFrontOfYou extends Component {
   render() {
     return (
-      <div class= "InFrontOfYou">
+      <div class= "InrontOfYou" >
           <p>You shouldnt look too far.</p>
           <p>Sometimes, the solution is right in front of you.</p>
       </div>
