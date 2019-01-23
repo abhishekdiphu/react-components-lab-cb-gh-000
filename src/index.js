@@ -63,13 +63,12 @@ export class App extends Component {
     return (
       <div id="app">
       <ButcherShop />
-
       <InFrontOfYou />
       <OlderCoaster />
 
 
       </div>
-    )
+    );
   }
 }
 
