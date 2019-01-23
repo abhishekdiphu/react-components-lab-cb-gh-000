@@ -29,10 +29,10 @@ export class OlderCoaster extends Component {
 export class InFrontOfYou extends Component {
   render() {
     return (
-      <div>
-    <p>You shouldnt look too far.</p>
-    <p>Sometimes, the solution is right in front of you.</p>
-  </div>
+      <div class= "InFrontOfYou">
+          <p>You shouldnt look too far.</p>
+          <p>Sometimes, the solution is right in front of you.</p>
+      </div>
 );
 
   }
@@ -62,10 +62,11 @@ export class App extends Component {
   render() {
     return (
       <div id="app">
+      <ButcherShop />
 
-        <ButcherShop/>
-        <InFrontOfYou/>
-        <OlderCoaster/>
+      <InFrontOfYou />
+      <OlderCoaster />
+
 
       </div>
     )
